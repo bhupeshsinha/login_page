@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+
+
+.container{
+     
+
+    display: flex;   /*Parent me dislpay: flex then only we can use flex property*/
+    justify-content: center;    /*for main axis*/
+    align-items: center;    /*for cross axis*/ 
+    
+
+
+    width: 100vw;   /*viewport width*/
+    height: 100vh;  /*viewport height*/
+    background-image: url(bg.jpg);
+    background-size: cover;
+     
+}
+
+.loginPage{
+       
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-direction: column;     /*make column as a main axis*/
+
+
+
+    width: 50%;
+    height: 70%;
+    background-color: #86868652;
+    border-radius: 30px;
+    backdrop-filter: blur(1px);
+    
+}
+
+.loginDetails{
+
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+
+.password{
+    font-size: 20px;
+    width: 50%; 
+    display: flex;
+    justify-content:  space-between;
+
+
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+h1{
+    
+ 
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  
+    font-size: 80px;
+}
+
+
+/* input selector */
+input[type="text"], input[type="password"]{
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+
+
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+
+}
+
+
+
+input[type="checkbox"]
+{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+
+
+button{
+    padding: 20px 40px; /*(top, bottom) , (left, right)*/
+    border: none;
+    border-radius: 10px;
+    font-size: 20px; 
+    background: linear-gradient(rgba(255, 255, 0, 0.39), rgba(255, 192, 203, 0.445));
+    cursor: pointer;
+
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+p{
+    cursor: pointer;
+    text-decoration: underline black;
+
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* 
+.montserrat-<uniquifier> {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
